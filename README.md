@@ -35,12 +35,14 @@ Either use a function or a class.  Use a class if you want helper methods or sta
 https://reactjs.org/docs/state-and-lifecycle.html
 https://reactjs.org/docs/react-component.html
 
-Command to create a new react project:
+Command to create a new react project, from https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
 
     $ cd <parent directory>
-    From https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
     $ npx create-react-app james-bond-react
-    From https://github.com/gitname/react-gh-pages
-    $ npm install gh-pages --save-dev
     $ npm start
+    
+Command to deploy to github pages, from https://github.com/gitname/react-gh-pages
+(once you've connected the github repo)
 
+    $ npm install gh-pages --save-dev
+    $ npm run deploy
